@@ -306,7 +306,7 @@ class InverseOptimalControl(object):
             return None
 
         # initialize
-        self.f_expected = np.zeros(self.n_feature, dtype='float')
+        # self.f_expected = np.zeros(self.n_feature, dtype='float')
 
         for d in range(self.n_data):
             print "   ", self.basenames[d], "===================="
